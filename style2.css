@@ -1,0 +1,120 @@
+nav {
+  padding: 30px;
+  font-display: inline-block;
+}
+
+input {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  display: block;
+  padding: 8px;
+  margin-bottom: 10px;
+  text-align: justify;
+  fontsize: 13px;
+}
+
+#submit {
+  font-size: 15px;
+  background: linear-gradient(white, rgb(81, 142, 248));
+  margin: 10 20 100 20;
+  padding: 10px;
+}
+
+h4 {
+  font-size: 17px;
+  margin-left: 20px;
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background: linear-gradient(white, rgb(81, 142, 248));
+  padding: 10px;
+}
+
+form {
+  padding: 15px;
+  margin-left: 50px;
+}
+
+strong {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background: linear-gradient(white, rgb(81, 142, 248));
+  width: 250px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+h5 {
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-family: arial, serif, sans-serif;
+
+  padding: 15px;
+  font-bold: 8%;
+}
+
+.response p {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background: linear-gradient(white, rgb(81, 142, 248));
+  width: 250px;
+  height: 70px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(81, 142, 248);
+}
+
+.icon {
+  text-align: center;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+#textFin {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#resume {
+  font-size: 22px;
+  text-align: center;
+}
+
+.clignote {
+  color: black;
+  animation: clignote 2s linear infinite;
+  margin-bottom: 30px;
+}
+@keyframes clignote {
+  50% {
+    opacity: 0;
+  }
+}
+
+#navbarNavDropdown {
+  margin-left: 30px;
+}
