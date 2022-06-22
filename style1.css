@@ -12,9 +12,10 @@
   .row {
     text-align: center;
   }
-  #navbarSupportedContent {
-    width: 50px;
+  #navHeader {
+    text-align: start;
   }
+
   .logo {
     width: 60px;
   }
@@ -32,8 +33,8 @@
   .row {
     text-align: center;
   }
-  #navbarSupportedContent {
-    width: 60px;
+  #navHeader {
+    text-align: start;
   }
   .logo {
     width: 70px;
@@ -42,9 +43,9 @@
 
 @media (min-width: 575px) {
   .img {
-    width: 80%;
+    width: 100%;
     box-shadow: 0px 0px 10px black;
-    border-radius: 4px;
+    border-radius: 8px;
   }
   p {
     font-size: 20px;
@@ -52,35 +53,39 @@
 
   .row {
     text-align: center;
-
-    padding-right: 20px;
   }
-  #navbarSupportedContent {
-    width: 80px;
+  #navHeader {
+    text-align: start;
   }
 }
 @media (min-width: 767px) {
   .img {
     width: 90%;
-
+    margin-top: 20px;
     box-shadow: 0px 0px 10px black;
-    border-radius: 4px;
+    border-radius: 8px;
   }
   p {
     font-size: 17px;
   }
+  #navHeader {
+    text-align: start;
+  }
 
   .row {
-    text-align: center;
-    padding-left: 25px;
+    padding-left: 5px;
+  }
+  #carousel {
+    margin-left: 0px;
   }
 }
 @media (min-width: 991px) {
   .img {
-    width: 100%;
-    text-align: center;
+    width: 80%;
+
     box-shadow: 0px 0px 10px black;
     border-radius: 4px;
+    margin-top: 20px;
   }
   p {
     font-size: 17px;
@@ -89,8 +94,6 @@
 
   .row {
     text-align: center;
-
-    padding-left: 25px;
   }
 }
 @media (min-width: 1199px) {
@@ -98,6 +101,7 @@
     width: 70%;
     box-shadow: 0px 0px 10px black;
     border-radius: 4px;
+    margin-top: 20px;
   }
   p {
     font-size: 17px;
@@ -109,9 +113,10 @@
 }
 @media (min-width: 1599px) {
   .img {
-    width: 70%;
+    width: 60%;
     box-shadow: 0px 5px 15px black;
     border-radius: 5px;
+    margin-top: 20px;
   }
   p {
     font-size: 19px;
@@ -119,7 +124,6 @@
 
   .row {
     text-align: center;
-    padding-left: 25px;
   }
 }
 
@@ -135,11 +139,13 @@ h2 {
   margin: 20px 20px 0 20px;
 }
 h1 {
-  padding: 30px;
+  padding: 20px;
   text-align: center;
+  font-size: 40px;
 }
 h6 {
   font-size: 30px;
+  padding: 20px;
 }
 h5 {
   padding: 25px;
@@ -163,6 +169,6 @@ img {
   box-shadow: 0px 0px 10px black;
 }
 
-.d-block {
-  width: 50%;
+.logo {
+  width: 100px;
 }
