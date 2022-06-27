@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="abcquiz" content="site de quiz serie film" />
+    <meta name="description" content="Page à propos et contact" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCJ0KDZTYK"></script>
     <script>
@@ -20,7 +20,9 @@
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8805254105406145" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="bootstrap.min.css" crossorigin="anonymous" />
-    <link rel="stylesheet" href="a-propos.css" />
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="shortcut icon" href="image/icoabc.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>abcquiz.fr</title>
 
     <link rel="canonical" href="self.html" />
@@ -282,192 +284,196 @@
         <button id="voir" on="tap:siteConsent.prompt">voir!</button>
       </div>
     </amp-consent>
-    <header class="row">
-      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-        <div>
-          <div class="row col-md-12">
-            <a href="index.html" class="navbar-brand">
-              <h1>ABC Quiz</h1>
-            </a>
-          </div>
-          <div class="navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link">Accueil</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Quiz serie
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a class="dropdown-item" href="index2.html">Kaamelott</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index3.html"
-                      >La casa de papel</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index4.html">Squid game</a>
-                  </li>
-                  <li><a class="dropdown-item" href="index5.html">Arrow</a></li>
-                  <li>
-                    <a class="dropdown-item" href="index6.html">Ozark</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index7.html">Lucifer</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index8.html"
-                      >Le jeu de la dame</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink2"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Quiz film
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a class="dropdown-item" href="index12.html"
-                      >Captain América</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index13.html"
-                      >Captain Marvel</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index14.html">Iron Man 1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index15.html">Iron Man 2</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index16.html"
-                      >Transformers 1</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink2"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Quiz manga
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a class="dropdown-item" href="index12.html"
-                      >Captain América</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index13.html"
-                      >Captain Marvel</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index14.html">Iron Man 1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index15.html">Iron Man 2</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index16.html"
-                      >Transformers 1</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <!-- <li class="nav-item">
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <nav
+            class="navbar navbar-dark navbar-expand-lg"
+            style="background: black"
+            id="navHeader"
+          >
+            <a href="index.html" class="navbar-brand"
+              ><img src="image/abclog.jpg" alt="image/logo" class="logo"
+            /></a>
+
+            <div class="navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Quiz serie
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="QuizKaamelott.html"
+                        >Kaamelott</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizLaCasaDePapel.html"
+                        >La casa de papel</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizSquidGame.html"
+                        >Squid game</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizArrow.html">Arrow</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizOzark.html">Ozark</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizLucifer.html"
+                        >Lucifer</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizLeJeuDeLaDame.html"
+                        >Le jeu de la dame</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink2"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Quiz film
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink3"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="QuizCaptainAmerica.html"
+                        >Captain América</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizCaptainMarvel.html"
+                        >Captain Marvel</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizIronMan1.html"
+                        >Iron Man 1</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizIronMan2.html"
+                        >Iron Man 2</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizTransformers1.html"
+                        >Transformers 1</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink3"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Quiz manga
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="QuizHunterxhunter.html"
+                        >Hunter X Hunter</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="QuizKuroko'sBasket.html"
+                        >Kuroko's Basket</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index14.html"></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index15.html"></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index16.html"></a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li class="nav-item">
                             <a href="indexContact.html" class="nav-link">Contact</a>
                         </li>-->
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </nav>
         </div>
-      </nav>
+      </div>
     </header>
 
     <main class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-lg-12 col-md-12">
           <h1>ABC Quiz</h1>
-          <p class="text-center">
+          <p class="text-center" style="font-weight: bold">
             Nous vous proposons des quiz originaux pour vous amuser et tester
-            vos connaissances sur les films et series que vous regardez dans un
+            vos connaissances sur les films et séries que vous regardez dans un
             souci de transparence nous vous indiquons que les quiz présents sur
             notre site sont uniquement construits grace aux versions françaises
             en cas de doutes sur l'une des réponses vous pouvez nous contacter
             grace au mail dans notre section
-            <a href="CGU abcquiz.fr/CGU.pdf" target="_blank">CGU</a>.Les
-            questions sont faites pour que vous puissiez toujours trouver
-            quelques réponses avec un minimum de connaissance sur les series,
-            films et mangas que vous regardez. Nous essayons d'actualiser les
-            questions le plus possible pour que notre site soit toujours
-            attractif.
+            <a href="CGU abcquiz.fr/CGU.pdf" target="_blank">CGU</a> vous
+            trouverez aussi une référence à la loi sur le droit d'auteur
+            <a
+              target="_blank"
+              href="Protection droit d'auteur/protection par le droit d'auteur.pdf"
+              >ici</a
+            >.Les questionnaires sont réalisés pour que vous puissiez toujours
+            trouver quelques réponses avec un minimum de connaissance sur les
+            séries, films et mangas que vous regardez. Nous essayons
+            d'actualiser les questions le plus possible pour que notre site soit
+            toujours attractif. N'hésitez pas à nous proposer vos idées de quiz
+            ou amélioration que vous aimeriez voir.
           </p>
 
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8805254105406145"
-            crossorigin="anonymous"
-          ></script>
-          <ins
-            class="adsbygoogle"
-            style="display: block"
-            data-ad-format="fluid"
-            data-ad-layout-key="-5u+by-3l-8c+160"
-            data-ad-client="ca-pub-8805254105406145"
-            data-ad-slot="7561827413"
-          ></ins>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-
-          <h3>A propos de moi</h3>
-          <p class="text-center">
-            Nouveau dans le dévelopement web j'ai fait ce site avant tout pour
-            m'exercer, évoluer dans mon nouveau métier et faire plaisir aux
-            personnes qui comme moi aiment tester leurs connaissances, en
-            proposant un site attractif (en tout cas je l'éspère!) avec du
-            contenu professionel une interface ludique et plaisante et des
-            contenus en adequation avec mes passions. Passionné par
-            l'informatique les series, films et mangas j'écris ces quiz afin que
-            vous passiez un bon moment de réflexion, d'amusement et de plaisir.
-            N'hesitez pas à vous tester vous et vos amis vous retrouverez les
-            nouveaux quiz et les quiz à venir sur notre
+          <h3>A propos</h3>
+          <p class="text-center" style="font-weight: bold">
+            Nouveau dans l'univers du dévelopement web j'ai fait ce site avant
+            tout pour m'exercer, évoluer dans mon nouveau métier et faire
+            plaisir aux personnes qui comme moi aiment tester leurs
+            connaissances, en proposant un site attractif (en tout cas je
+            l'éspère!) avec du contenu professionel une interface ludique et
+            plaisante et des contenus en adequation avec mes passions. Passionné
+            par l'informatique les séries, films et mangas j'écris ces quiz afin
+            que vous passiez un bon moment de réflexion, d'amusement et de
+            plaisir. N'hésitez pas à vous tester vous et vos amis vous
+            retrouverez les nouveaux quiz et les quiz à venir sur notre
             <a
               target="_blank"
               href="https://www.facebook.com/Abcquiz-116812164358868"
@@ -484,22 +490,6 @@
         </div>
       </div>
     </main>
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8805254105406145"
-      crossorigin="anonymous"
-    ></script>
-    <ins
-      class="adsbygoogle"
-      style="display: block"
-      data-ad-format="fluid"
-      data-ad-layout-key="-5u+by-3l-8c+160"
-      data-ad-client="ca-pub-8805254105406145"
-      data-ad-slot="7561827413"
-    ></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 
     <div
       class="container-fluid ;navbar navbar-dark navbar-expand-lg"
@@ -520,11 +510,11 @@
               >
                 <path
                   d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923
-        1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16
-        8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275
-        1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478
-        2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034
-        1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z "
+      1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16
+      8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275
+      1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478
+      2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034
+      1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z "
                 /></svg></em></a
           ><a
             target="_blank"
@@ -541,19 +531,20 @@
               >
                 <path
                   d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354
-        2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z "
+      2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z "
                 /></svg></em
           ></a>
         </div>
 
         <ul class="list-inline col-12" style="padding-bottom: 5px">
-          <li class="list-inline-item">
-            <a href="index.html ">Accueil</a>
-          </li>
           <li class="list-inline-item"><a href="index.html ">Quiz</a></li>
-          <!--  <li class="list-inline-item">
-                    <a href="indexContact.html">Contact</a>
-                </li>-->
+          <li class="list-inline-item">
+            <a href="mieuxNousConnaitre.html">A propos</a>
+          </li>
+
+          <li class="list-inline-item">
+            <a href="CGU abcquiz.fr/CGU.pdf" target="_blank">CGU</a>
+          </li>
         </ul>
       </footer>
     </div>

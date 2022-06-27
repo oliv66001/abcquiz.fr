@@ -5,7 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="abcquiz" content="site de quiz serie film" />
+    <meta name="description" content="Quiz film: Captain Marvel " />
+    <meta property="og:url" content="https://www.abcquiz.fr/index.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ABC Quiz" />
+    <meta property="og:description" content="Quiz  serie, film et manga quiz Hunter x Hunter, quiz Kuroko's basket, Transformers, Iron Man, Le haut du panier, quiz la casa de papel" />
+    <meta property="og:image" content="https://www.abcquiz.fr/index.html" />
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8805254105406145" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="bootstrap.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="style2.css" />
@@ -14,6 +20,19 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js,
+                fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src =
+                "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        })(document, "script", "facebook-jssdk");
+    </script>
     <header>
         <div class="container">
             <nav class="navbar navbar-dark navbar-expand-lg" style="background: black" id="navHeader">
@@ -110,28 +129,26 @@
                 </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                 <li>
-                                                    <a class="dropdown-item" href="index12.html">Naruto</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="index13.html">Kuroko's Basket
-                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="index14.html">Iron Man 1</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="index15.html">Iron Man 2</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="index16.html">Transformers 1</a
+                                                    <a class="dropdown-item" href="QuizHunterxhunter.html">Hunter X Hunter</a
                     >
                   </li>
-                </ul>
-              </li>
-              <!-- <li class="nav-item">
-                          <a href="indexContact.html" class="nav-link">Contact</a>
-                                                </li>-->
+                  <li>
+                    <a class="dropdown-item" href="QuizKuroko'sBasket.html"
+                      >Kuroko's Basket</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="index14.html"></a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="index15.html"></a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="index16.html"></a>
+                                                </li>
                                             </ul>
+                                        </li>
+                                    </ul>
                 </div>
             </nav>
         </div>
@@ -429,7 +446,11 @@
         <button class="btn btn-outline-dark" type="button" id="submit">
           Résultat
         </button>
-
+        <div
+          class="fb-share-button"
+          data-href="https://www.abcquiz.fr/index.html"
+          data-layout="button_count"
+        ></div>
         <span id="msgR"></span>
       </div>
     </main>
@@ -502,9 +523,7 @@
           <li class="list-inline-item">
             <a href="mieuxNousConnaitre.html">A propos</a>
           </li>
-          <li class="list-inline-item">
-            <a href="mieuxNousConnaitre.html">Contact</a>
-          </li>
+
           <li class="list-inline-item">
             <a href="CGU abcquiz.fr/CGU.pdf" target="_blank">CGU</a>
           </li>

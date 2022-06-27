@@ -229,7 +229,7 @@
     font-size: 20px;
   }
   h5 {
-    margin-left: 200px;
+    margin-left: 340px;
     font-size: 40px;
 
     padding: 30px;
@@ -273,7 +273,7 @@
     font-size: 20px;
   }
   h5 {
-    margin-left: 370px;
+    margin-left: 300px;
     font-size: 45px;
   }
   h2 {
@@ -417,4 +417,8 @@ button {
 
 footer {
   font-size: 20px;
+}
+
+.fb-share-button {
+  text-align: center;
 }
